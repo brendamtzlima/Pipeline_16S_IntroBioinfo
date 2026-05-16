@@ -1,0 +1,8 @@
+.env
+
+resultados/*
+
+datos/se-33/*.fastq.gz
+
+__pycache__/
+.ipynb_checkpoints/
