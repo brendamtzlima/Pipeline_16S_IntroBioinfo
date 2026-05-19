@@ -130,6 +130,16 @@ El pipeline fue ejecutado utilizando un ambiente de QIIME2 previamente instalado
 micromamba activate qiime2-amplicon-2025.7
 ```
 
+### Configuración de Telegram
+El pipeline utiliza un bot de Telegram para enviar notificaciones automáticas sobre la ejecución y posibles errores.
+
+Antes de ejecutar el pipeline debe crearse un archivo `.env` en la raíz del proyecto con las siguientes variables:
+
+```bash
+TOKEN=TU_TOKEN_TELEGRAM
+CHAT_ID=TU_CHAT_ID
+```
+
 ##
 ## Instrucciones de uso
 ### 1. Clonar repositorio 

@@ -1,6 +1,13 @@
 .env
 
 resultados/*
+!resultados/.gitkeep
+!resultados/qiime2/
+!resultados/qiime2/.gitkeep
+!resultados/exportados/
+!resultados/exportados/.gitkeep
+!resultados/phyloseq/
+!resultados/phyloseq/.gitkeep
 
 datos/se-33/*.fastq.gz
 
